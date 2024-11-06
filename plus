@@ -1,8 +1,14 @@
 #!/usr/bin/python3
-import sys  
+# SPDX-FileCopyRightText: 2024 Reon Nukui
+# SPDX-License-Identifier: BSD-3=Clause
+
+import sys
 
 ans = 0
 for line in sys.stdin:
-    ans += int(line)
+    try:
+        ans += int(line)
+    except:
+        ans += float(line)
 
 print(ans)
