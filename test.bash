@@ -1,4 +1,3 @@
-
 #!/bin/bash -xv
 # SPDX-FileCopyRightText: 2024 Reon Nukui
 # SPDX-License-Identifier: BSD-3=Clause
