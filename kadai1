@@ -1,0 +1,52 @@
+#!/usr/bin/python3
+# SPDX-FileCopyRightText: 2024 Reon Nuki
+# SPDX-Licence-Identifier: BSD-3=Clause
+
+import math
+
+#入力させるやつ
+a = int(input('打球速度(km/h)を入力(NPB平均は158km/h,大谷の最速は191km/h):'))
+b = int(input('打球角度(°)を入力(ホームランが出やすい角度は25°~31°):'))
+
+#条件
+g = 9.80665 #重力加速度
+ps = a * (1000 / 3600) #球速（m/s）
+br = b * (3.1415 / 180) #打球角度をラジアンにする
+
+#打球角度による飛距離の調整値ｋ
+if 14 >= b:
+    k = 0.8
+elif 24 >= b >= 15:
+    k = 0.86
+elif 31 >= b >= 25: #バレルゾーン(ホームランが出やすい角度)
+    k = 0.9
+elif 36 >= b >= 32:
+    k = 0.77
+elif 45 >= b >= 37:
+    k = 0.7
+else:
+    k = 0.65
+
+#打球速度による飛距離の調整値e
+
+if a >= 190:
+    e = 0.9
+elif a >= 180:
+    e = 0.87
+elif a >= 170:
+    e = 0.84
+elif a >= 160:
+    e = 0.81
+elif a >= 150:
+    e = 0.78
+else:
+    e = 0.75
+
+#飛距離調整値
+F = k * e
+
+#飛距離R
+R = ((ps ** 2 * math.sin(2 * br)) / g) * F
+
+#結果の表示
+print('打球飛距離は%d m' % R)
