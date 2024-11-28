@@ -1,13 +1,13 @@
 #!/usr/bin/python3
-# SPDX-FileCopyRightText: 2024 Reon Nuki s23c1102ek@s.chibakoudai.jp
+# SPDX-FileCopyRightText: 2024 Reon Nuki
 # SPDX-Licence-Identifier: BSD-3=Clause
 
 import math
-import sys
 
 #入力させるやつ
-a = int(sys.argv[1]) #打球速度入力
-b = int(sys.argv[2]) #打球角度入力
+a = int(('打球速度(km/h)を入力(NPB平)
+b = int(input('打球角度(°)を入力(ホームランが出やすい角度は25°~31°):'))
+
 #条件
 g = 9.80665 #重力加速度
 ps = a * (1000 / 3600) #球速（m/s）

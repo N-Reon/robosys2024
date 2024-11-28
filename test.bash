@@ -8,16 +8,19 @@ ng (){
 
 res=0
 ###NORMAL INPUT###
-out=$(seq 5 | ./plus)
-[ "${out}" = 15 ] || ng "$LINENO"
+out=$(python3 ./kadai1 160 25)
+[ "${out}" = "打球飛距離は126 m" ] || ng "$LINENO"
 
-###STRANGE INPUT###
-out=$(echo あ | ./plus)
-[ "$?" = 1 ]      || ng "$LINENO"
+out=$(python3 ./kadai1 160 あ)
 [ "${out}" = "" ] || ng "$LINENO"
 
-out=$(echo | ./plus)
-[ "$?" = 1 ]      || ng "$LINENO"
+out=$(python3 ./kadai1 a b)
+[ "${out}" = "" ] || ng "$LINENO"
+
+out=$(python3 ./kadai1 a 16)
+[ "${out}" = "" ] || ng "$LINENO"
+
+out=$(python3 ./kadai1 ああ)
 [ "${out}" = "" ] || ng "$LINENO"
 
 [ "$res" = 0 ] && echo OK
