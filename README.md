@@ -6,6 +6,7 @@
 さぁ数字を入れて打球を飛ばせ！！
 
 ## 実行方法
+実行方法は以下の通りです。  
 ```bash
 $ python3 kadai1 打球速度(数字) 打球角度(数字)  
 ```
@@ -13,6 +14,7 @@ $ python3 kadai1 打球速度(数字) 打球角度(数字)
 打球速度と打球角度に半角数字以外を入力するとエラーが出ます。
 
 ## 実行例
+実行例は以下の通りです。  
 ```bash
 $ python3 kadai1 160 25  
 打球飛距離は126 m
@@ -29,7 +31,7 @@ $ python3 kadai1 190 31
 2,
 
 ## ちょっとしたデータ
- 
+大谷選手の2024年シーズンの最高打球速度は191km/h
 ## ライセンスなど
 #plusコマンド
 ![test](https://github.com/N-Reon/robosys2024/actions/workflows/test.yml/badge.savg)
