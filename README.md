@@ -26,12 +26,21 @@ $ python3 kadai1 190 31
 ```
 
 ## インストール方法
-インストール方法は以下の通りです。
-1,
-2,
-
+インストール方法は以下の通りです。  
+1, clone する。  
+```bash
+git clone https://github.com/N-Reon/robosys2024.git  
+```
+2, robosys2024に移動する。
+```bash  
+cd robosys2024
+```
 ## ちょっとしたデータ
-大谷選手の2024年シーズンの最高打球速度は191km/h
+大谷選手の2024年シーズンの最高打球速度は191km/h  
+NPBの平均速度は158.8km/h  
+ホームランが出やすい角度は25~31度  
+
+
 ## ライセンスなど
 #plusコマンド
 ![test](https://github.com/N-Reon/robosys2024/actions/workflows/test.yml/badge.savg)
