@@ -17,6 +17,8 @@ $ python3 kadai1 160 25
 
 $ python3 kadai1 190 31  
 打球飛距離は219 m
+
+# ライセンスなど
 #plusコマンド
 ![test](https://github.com/N-Reon/robosys2024/actions/workflows/test.yml/badge.savg)
 
