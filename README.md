@@ -14,7 +14,7 @@ $ python3 kadai1 打球速度(数字) 打球角度(数字)
 打球速度と打球角度に半角数字以外を入力するとエラーが出ます。
 
 ## 実行例
-実行例は以下の通りです。
+実行例は以下の通りです。  
 実行例１    
 ```bash
 $ python3 kadai1 160 25  
@@ -37,9 +37,12 @@ git clone https://github.com/N-Reon/robosys2024.git
 cd robosys2024
 ```
 ## ちょっとしたデータ
-大谷選手の2024年シーズンの最高打球速度は191km/h  
-NPBの平均速度は158.8km/h  
+2024年シーズン大谷選手の最高打球速度は191km/h  
+2024年シーズン柳田選手のオープン戦第一号の打球速度は182km/h  
+2021年シーズンヤクルトスワローズの平均打球速度は137.5km/h  
+2021年シーズン村上選手の平均打球速度は148.5km/h  
 ホームランが出やすい角度は25~31度  
+
 
 ## ライセンスなど
 #plusコマンド
@@ -47,10 +50,10 @@ NPBの平均速度は158.8km/h
 
 このソフトウェアパッケージは，3条項BSDライセンスの下，再頒布および使用が許可されます．  
 このコマンドは以下のサイトを参考にしています。  
-https://nifs-k.repo.nii.ac.jp  
 https://hiros-lab.com/barrelzone/  
-https://keisan.casio.jp/exec/system/1204505751
-
+https://keisan.casio.jp/exec/system/1204505751  
+https://nikkansports.com/baseball/news/202403140001569.html  
+https://www.sanspo.com/article/20240811-JQWM7XCZEBN4ZOPY5GH34LQ7UQ/?outputType=theme_baystars  
 ## 必要なソフトウェア
 - Python
   - テスト済みバージョン: 3.7~3.10
