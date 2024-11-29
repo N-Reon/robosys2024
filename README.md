@@ -1,5 +1,5 @@
 # 打球飛距離計算コマンド
-[![test](https://github.com/N-Reon/robosys2024/actions/workflows/test.yml/badge.svg)](https://github.com/N-Reon/robosys2024/actions/workflows/test.yml)
+[![test](https://github.com/N-Reon/robosys2024/actions/workflows/test.yml/badge.svg?branch=main)](https://github.com/N-Reon/robosys2024/actions/workflows/test.yml)
 
 ## 概要
 このコマンドは打球速度と打球角度を入力すると打球飛距離を算出ことができます。  
