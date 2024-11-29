@@ -1,5 +1,7 @@
 # 打球飛距離計算コマンド
 
+![test](https://github.com/N-Reon/robosys2024/actions/workflows/test.yml/badge.savg)  
+
 ## 概要
 このコマンドは打球速度と打球角度を入力すると打球飛距離を算出ことができます。  
 空気抵抗を無視して計算しているため  非現実的な打球飛距離が算出されることがあります。  
@@ -44,10 +46,7 @@ cd robosys2024
 ホームランが出やすい角度は25~31度  
 2024年シーズン宮崎選手の第9号の打球角度は52度  
 
-## ライセンスなど
-#plusコマンド
-![test](https://github.com/N-Reon/robosys2024/actions/workflows/test.yml/badge.savg)
-
+## ライセンス
 このソフトウェアパッケージは，3条項BSDライセンスの下，再頒布および使用が許可されます．  
 このコマンドは以下のサイトを参考にしています。  
 https://hiros-lab.com/barrelzone/  
